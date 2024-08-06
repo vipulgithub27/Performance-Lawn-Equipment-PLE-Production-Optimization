@@ -31,45 +31,22 @@ PLE’s manufacturing facilities produce engine housings for both mowers and tra
 
 ## Methodology
 
-### Step 1: Define the Objective
+1. **Objective Function:**
+   Maximize total profit: \[ \text{Total Profit} = 190X_1 + 260X_2 \]
+   Where \( X_1 \) and \( X_2 \) are the quantities of mower and tractor housings produced, respectively.
 
-The goal is to maximize total profit, expressed as:
-\[ \text{Total Profit} = 190X_1 + 260X_2 \]
-Where:
-- \( X_1 \) = Number of mower housings
-- \( X_2 \) = Number of tractor housings
+2. **Decision Variables:**
+   - \( X_1 \): Units of mower housings
+   - \( X_2 \): Units of tractor housings
 
-### Step 2: Decision Variables
-
-- \( X_1 \): Units of mower housings to produce
-- \( X_2 \): Units of tractor housings to produce
-
-### Step 3: Formulate Constraints
-
-**Time Constraints:**
-- Stamping: \( 0.2X_1 + 0.3X_2 \leq 200 \)
-- Drilling: \( 0.3X_1 + 0.4X_2 \leq 300 \)
-- Assembly: \( 0.25X_1 + 0.35X_2 \leq 225 \)
-- Painting: \( 0.17X_1 + 0.25X_2 \leq 220 \)
-- Packaging: \( 0.05X_1 + 0.1X_2 \leq 100 \)
-
-**Resource Constraints:**
-- Sheet Metal: \( 1.6X_1 + 1.7X_2 \leq 1440 \)
-- Paint: \( 0.1X_1 + 0.32X_2 \leq 400 \)
-
-**Demand Constraint:**
-- \( X_1 \geq 2X_2 \)
-
-### Step 4: Optimize with Excel Solver
-
-The model was solved using Excel Solver to determine the optimal production quantities for maximizing profit.
-![image](https://github.com/user-attachments/assets/0b7212df-ef9a-4a62-b943-c95160fb9b3d)
+3. **Constraints:**
+   - Time constraints for each department
+   - Resource constraints for sheet metal and paint
+   - Demand constraint ensuring the number of mowers is at least twice the number of tractors
 
 ## Results
 
 ### Optimal Production Plan
-![image](https://github.com/user-attachments/assets/5a7f7162-93d2-4730-89dc-842ce0767b76)
-
 The optimization results indicate:
 - **Mower Housings (X₁):** 900 units
 - **Tractor Housings (X₂):** 0 units
@@ -86,15 +63,11 @@ The optimization results indicate:
 - **Paint:** 310 liters
 
 ### Sensitivity Analysis
-![image](https://github.com/user-attachments/assets/dc5f6e6f-4715-45f6-a375-482999e24842)
-
 - **Current Production Plan:** 900 mowers and 0 tractors is optimal.
 - **Reduced Cost:** Increasing tractor production could potentially increase profit, but the current setup is most profitable within the given constraints.
 - **Shadow Price for Assembly:** €760 per additional hour, highlighting the value of increasing assembly capacity.
 
 ## Improved Model
-![image](https://github.com/user-attachments/assets/eea8a3b3-9d83-4b89-a1c2-99798f42fe93)
-
 To further enhance profitability, an improved model was developed by reallocating department hours:
 - **Reduced Hours:** Painting and Packaging by 30 hours each.
 - **Increased Hours:** Stamping and Assembly by 25 and 35 hours respectively.
@@ -108,7 +81,7 @@ Detailed analysis and Solver formulation are provided in the Excel file `PLE_Pro
 - Solver setup and results
 - Sensitivity analysis and improved model findings
 
-You can download the file [here](link-to-your-file).
+You can download the file [here]().
 
 ## Insights and Recommendations
 
