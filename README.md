@@ -4,6 +4,15 @@
 
 Welcome to the Performance Lawn Equipment (PLE) Production Optimization project! This repository contains a detailed analysis and optimization report aimed at maximizing profit from the production of mower and tractor housings. Using Excel Solver, we have formulated and solved a linear programming model to determine the most profitable production strategy within the given constraints.
 
+## Table of Contents
+
+- [Project Summary](#Project Summary)
+- [Problem Statement](#Problem Statement)
+- [Methodology](#methodology)
+- [Results](#results)
+- [How to Access the Full Report](#How to Access the Full Report)
+- [Insights and Recommendations](#Insights and Recommendations)
+
 ## Project Summary
 
 Performance Lawn Equipment (PLE) faces the challenge of optimizing its production process to maximize profits from manufacturing mower and tractor housings. The production process involves multiple departments with limited work hours and resource constraints. This project leverages linear programming techniques to identify the optimal production quantities while adhering to these constraints.
@@ -68,7 +77,7 @@ The optimization results indicate:
 - **Reduced Cost:** Increasing tractor production could potentially increase profit, but the current setup is most profitable within the given constraints.
 - **Shadow Price for Assembly:** €760 per additional hour, highlighting the value of increasing assembly capacity.
 
-## Improved Model
+### Improved Model
 To further enhance profitability, an improved model was developed by reallocating department hours:
 - **Reduced Hours:** Painting and Packaging by 30 hours each.
 - **Increased Hours:** Stamping and Assembly by 25 and 35 hours respectively.
