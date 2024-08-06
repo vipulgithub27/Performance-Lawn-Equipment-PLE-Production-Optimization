@@ -7,6 +7,7 @@ Welcome to the Performance Lawn Equipment (PLE) Production Optimization project!
 ## Project Summary
 
 Performance Lawn Equipment (PLE) faces the challenge of optimizing its production process to maximize profits from manufacturing mower and tractor housings. The production process involves multiple departments with limited work hours and resource constraints. This project leverages linear programming techniques to identify the optimal production quantities while adhering to these constraints.
+![product optimization](https://github.com/user-attachments/assets/768be9ad-c377-4244-ad3f-884229d6d5c2)
 
 ## Problem Statement
 
@@ -81,7 +82,7 @@ Detailed analysis and Solver formulation are provided in the Excel file `PLE_Pro
 - Solver setup and results
 - Sensitivity analysis and improved model findings
 
-You can download the file [here]().
+You can download the file [here](https://github.com/vipulgithub27/Performance-Lawn-Equipment-PLE-Production-Optimization/blob/main/Performance%20Lawn%20Equipment%20(PLE)%20Production%20Optimization.pdf).
 
 ## Insights and Recommendations
 
