@@ -6,12 +6,12 @@ Welcome to the Performance Lawn Equipment (PLE) Production Optimization project!
 
 ## Table of Contents
 
-- [Project Summary](#Project Summary)
-- [Problem Statement](#Problem Statement)
+- [Project Summary](#project-summary)
+- [Problem Statement](#problem-statement)
 - [Methodology](#methodology)
 - [Results](#results)
-- [How to Access the Full Report](#How to Access the Full Report)
-- [Insights and Recommendations](#Insights and Recommendations)
+- [How to Access the Full Report](#how-to-access-the-full-report)
+- [Insights and Recommendations](#insights-and-recommendations)
 
 ## Project Summary
 
